@@ -1,12 +1,9 @@
-package stringTest;
+package arrayListTestNew;
 
 import java.util.ArrayList;
 
-import arrayListTestNew.Coustmer;
-import arrayListTestNew.Employee;
-import arrayListTestNew.Student;
+public class TestNew {
 
-public class A {
 	public static void main(String[] args) {
 		ArrayList a = new ArrayList<>();
 		ArrayList a1 = new ArrayList<>();
@@ -45,5 +42,4 @@ public class A {
 		System.out.println();
 
 	}
-
 }
