@@ -14,5 +14,16 @@ public class SimpalTest_String {
 		System.out.println(s.compareTo(s2)); // ye Index kyu de rahi he true /false kyu nhi
 		
 		System.out.println(s.indexOf("MCA"));      // ye 22 kyu de raha he                        //puchna  1.endwith() 2. equals() 3.
+		/*for(int i =0;i<word.length;i++) {
+			String wordLast = word[i];
+			if (wordLast == "framework") {
+	         wordLast = "framework";
+			}
+		}
+		System.out.println();*/
+		
+			
+		}
+
 	}
 }
