@@ -28,7 +28,7 @@ public class Remove_Vowel_From_String {
         	  continue;
           }
 		}
-		System.out.print(Arrays.toString());
+		System.out.print(Arrays.toString(ch));
 	}
 
 }

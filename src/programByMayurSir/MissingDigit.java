@@ -10,7 +10,8 @@ public class MissingDigit {
 				System.out.println(missingWord);
 					break;
 			}
-			missingWord++;	
+			missingWord++;
 		}
+		
 	}
 }
