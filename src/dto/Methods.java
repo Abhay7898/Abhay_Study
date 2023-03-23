@@ -2,14 +2,17 @@ package dto;
 
 public interface Methods {
 	// interfacae : print // listPrint// setprint// haspamprint//arryPrint
-	public void printInt(int a);
+	public void printInt(Model m);
 
-	public void printchar(char a);
+	public void printchar(Model m);
 
-	public void printfloat(float a);
+	public void printfloat(Model m);
 
-	public void printString(String a);
+	public void printString(Model m);
 
-	public void printString1array(String a);
+	public void printStringToarray(Model m );
+	
+	public void printList(Model m);
+	public void print
 
 }

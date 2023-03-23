@@ -30,10 +30,8 @@ public class ImplementInterFace implements Methods {
 	public void printStringToarray(String a) {
 		String word[] = a.split("\\s");
 		for(int i=0;i<word.length;i++) {
-			System.out.print(word[i]);
+			System.out.println(word);
 		}
-		
 	}
 
-	
 }
