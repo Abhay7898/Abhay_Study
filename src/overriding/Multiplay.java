@@ -1,7 +1,7 @@
 package overriding;
 
 public class Multiplay extends Divide {
-	public void add() {
+	public void addd() {
 		System.out.println("Mayur Multiplay");
 	}
 

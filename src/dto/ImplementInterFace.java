@@ -3,35 +3,39 @@ package dto;
 public class ImplementInterFace implements Methods {
 
 	@Override
-	public void printInt(int a) {
-		System.out.println(a);
-
+	public void printInt(Model m) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public void printchar(char a) {
-		System.out.println(a);
-
+	public void printchar(Model m) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public void printfloat(float a) {
-		System.out.println(a);
-
+	public void printfloat(Model m) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public void printString(String a) {
-		System.out.println(a);
-
+	public void printString(Model m) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public void printStringToarray(String a) {
-		String word[] = a.split("\\s");
-		for(int i=0;i<word.length;i++) {
-			System.out.println(word);
-		}
+	public void printStringToarray(Model m) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void printList(Model m) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

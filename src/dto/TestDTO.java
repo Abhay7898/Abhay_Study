@@ -15,10 +15,7 @@ public class TestDTO extends ImplementInterFace{
 	
 		
 		 ImplementInterFace i = new ImplementInterFace();
-		 i.printInt(m.getSid());
-		 i.printchar(m.getCh());
-		 i.printfloat(m.getF());
-		 i.printString(m.getName());
+		 
 		 
 		
 	}

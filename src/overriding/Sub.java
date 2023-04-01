@@ -1,7 +1,7 @@
 package overriding;
 
 public class Sub extends Multiplay{
-	public void add() {
+	public void addd() {
 		System.out.println("Nandini Sub");
 	}
 

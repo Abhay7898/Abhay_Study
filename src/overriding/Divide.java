@@ -1,7 +1,7 @@
 package overriding;
 
 public class Divide extends Add {
-	public void add() {
+	public void addd() {
 		System.out.println("Abhishek Divide");
 	}
 

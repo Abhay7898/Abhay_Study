@@ -13,6 +13,6 @@ public interface Methods {
 	public void printStringToarray(Model m );
 	
 	public void printList(Model m);
-	public void print
+
 
 }
