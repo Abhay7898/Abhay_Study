@@ -13,4 +13,6 @@ public interface StudentInterFace {
 	public int creatStudent(Student st);
 	
 	public int  updateStudent(Student st);
+	
+	public Student readStudentById_Name_Mob(int sId,String sName,int mob );
 }

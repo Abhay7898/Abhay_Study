@@ -31,23 +31,19 @@ public class StudentOpretion {
 			System.out.println("Data Inserted");
 		}*/
 		
-		
-		
-		/*Student st = new Student();
-		st.setSid(2);
-		st.setsName("Abhay kumar");
-		st.setsFather("Sanjay Kumar");
-		st.setsMono(67873424);
-		st.setsDep("B.com");
-		boolean bu=s.updateStudent(st);
+		Student st = new Student();
+	    st.setSid(10);
+		st.setsName("Abhay");
+		st.setsFather("Sanjay ");
+		st.setsMono(789884592);
+		st.setsDep("MCA");
+		boolean bu =s.updateStudent(st);
 		if (bu) {
 			System.out.println("Data not update");
 		}
 		else {
 			System.out.println("Data update");
-		}*/
-		
-		
+		}
 		
 		/*boolean  delete = s.deleteStudent(6);
 		if (delete) {
@@ -59,7 +55,7 @@ public class StudentOpretion {
 		
 		
 		
-		 boolean de=s.deleteStudentByIdAndName(1, "Abhay"
+		 /*boolean de=s.deleteStudentByIdAndName(1, "Abhay"
 		 		+ "");
 		if (de) {
 			System.out.println("Record Delete");
@@ -67,7 +63,7 @@ public class StudentOpretion {
 			System.out.println("Record Not Delete");
 		}
 	//	Student stu = s.readStudentByIdAndNameAndMob(2, "Abhay", 789884592);
-		//stu.toString();
+		//stu.toString();*/
 		
 		
 	}

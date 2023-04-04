@@ -36,5 +36,13 @@ public class Student {
 	public void setsDep(String sDep) {
 		this.sDep = sDep;
 	}
-	
+	@Override
+	public String toString() {
+		System.out.print(sId+" ");
+		System.out.print(sName +" ");
+		System.out.print(sFather+" ");
+		System.out.print(smob+" ");
+		System.out.print(sDep+" ");
+		return null;
+	}
 }
