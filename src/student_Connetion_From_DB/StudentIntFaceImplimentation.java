@@ -10,8 +10,7 @@ import java.util.List;
 public class StudentIntFaceImplimentation implements StudentInterFace {
 	Connection con = Db_Connection.getConnection();
 
-	@Override
-	public List<Student> readAllStudent() throws SQLException {
+	public List<Student>readAllStudentadAllStudent() throws SQLException {
 		List<Student> list = new ArrayList<>();
 		String st = "select*from Student;";
 		PreparedStatement ps = con.prepareStatement(st);
@@ -138,5 +137,11 @@ public class StudentIntFaceImplimentation implements StudentInterFace {
 			System.out.println(e);
 		}
 		return st;
+	}
+
+	@Override
+	public List<Student> readAllStudent() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

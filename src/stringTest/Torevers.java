@@ -9,8 +9,8 @@ public class Torevers {
 			if(i==j) {
 				String newWord = word[i];
 				char ch[] =newWord.toCharArray();
-				for(int a=ch.length-1;a>=0;a--) {
-					System.out.print(ch[a]);
+				for(int a=ch.length-10;a>=0;a--) {
+				
 				}
 			}
 		}
