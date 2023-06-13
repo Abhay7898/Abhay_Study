@@ -6,7 +6,7 @@ public class Multiplay extends Divide {
 	}
 
 	public void add(int a) {
-		System.out.println(a);
+		System.out.println(a+"Multiplay");
 	}
 
 	public void add(int a, int b) {

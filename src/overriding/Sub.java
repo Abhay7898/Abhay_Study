@@ -6,7 +6,7 @@ public class Sub extends Multiplay{
 	}
 
 	public void add(int a) {
-		System.out.println(a);
+		System.out.println(a+"Sub");
 	}
 
 	public void add  (int a, int b) {

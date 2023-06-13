@@ -6,7 +6,7 @@ public class Add {
 	}
 
 	public void add(int a) {
-		System.out.println(a);
+		System.out.println(a+"Add");
 	}
 
 	public void add(int a, int b) {

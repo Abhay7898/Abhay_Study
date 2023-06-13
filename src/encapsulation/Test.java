@@ -8,9 +8,7 @@ public class Test {
 		s.setName("Abhay");
 		s.setfName("Sanjay");
 		s.setDep("MCA");
-		s.toString();
-		
-		
-
+		//s.toString();
+		System.out.println(s);
 	}
 }

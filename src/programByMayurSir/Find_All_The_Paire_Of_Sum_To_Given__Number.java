@@ -7,7 +7,7 @@ public class Find_All_The_Paire_Of_Sum_To_Given__Number {
 		for (int i = 0; i < given.length; i++) {
 			for (int j = 0; j < given.length; j++) {
 				if ((given[i] + given[j]) == total) {
-					System.out.println(given[i] + "+" + given[j]);
+					System.out.println(given[i] + "+" + given[j]+"="+(given[i]+given[j]));
 				}
 			}
 		}

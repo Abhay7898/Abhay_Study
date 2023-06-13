@@ -10,7 +10,7 @@ public class Torevers {
 				String newWord = word[i];
 				char ch[] =newWord.toCharArray();
 				for(int a=ch.length-10;a>=0;a--) {
-				
+				System.out.println(a);
 				}
 			}
 		}

@@ -29,10 +29,6 @@ public class Java_8_Test_Product {
 		 */
        
        list.stream().forEach(System.out :: println);
-       
-		
-		
-
 	}
 
 }

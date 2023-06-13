@@ -7,8 +7,7 @@ public class Test extends Sub {
 		Test t = new Test();
 		t.add(2, 4);
 		Add t1 = new Sub();
-		t1.add(3, 4);
-		
+		t1.add(3, 4);	
 	}
 
 }

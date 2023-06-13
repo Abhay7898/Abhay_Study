@@ -19,7 +19,7 @@ public class WriteData_In_Files {
 			bw.write(st3);
 			bw.close();
 		}
-		catch(Exception e) {
+		catch(Exception e){
 			System.out.println(e);
 		}
 	}
