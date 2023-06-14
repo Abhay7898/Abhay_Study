@@ -10,7 +10,6 @@ public class LamdaExpreation_Fillter {
 	public static void main(String[] args) {
 
 		List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 6, 45, 3, 5, 3, 5));
-
 		//////////////////////////////////////
 		List<Integer> lis2 = new ArrayList<>();
 		for (int i : list) {
@@ -21,14 +20,11 @@ public class LamdaExpreation_Fillter {
 		list.clear();
 		list.addAll(lis2);
 //		System.out.println(list);
-
 		/////////////////////////////////////
 
 		list = list.stream().filter(i -> i % 2 == 0).collect(Collectors.toList());
-
 		list = list.stream().filter(i -> i % 2 != 0).toList();
 //		System.out.println(list);
-
 		/////////////////////////////////////////
 
 		List<Integer> li = new ArrayList<>(
@@ -37,15 +33,18 @@ public class LamdaExpreation_Fillter {
 		li = li.stream().filter(i -> i%2 != 0 && i>5).toList();
 		System.out.println(li);
 		
-		
 		li.stream().filter(i -> {
 			if(i %2 != 0 && i > 6) {
 				return true;
 			}
 			return false;
 		}).toList();
+		/////////////////////////////////////////////////////////////
 		
 		
+		//List<Integer> liString = new ArrayList<>(
+		//		Arrays.asList(""));
+
 		
 
 	}

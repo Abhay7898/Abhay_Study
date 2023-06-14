@@ -4,12 +4,9 @@ package java_1_8_13_June_2023;
 public interface Funcnal_Interface {
 
 //	void add();
-
-
 	int add(int a, int b);
 
 	//	void add1();
-
 	default void deafultMsthod() {
 
 	}
