@@ -13,7 +13,7 @@ public class TestDefault implements Default,Default_2{
 	@Override
 	public void defaultMethod() {
 		// TODO Auto-generated method stub
-		Default.super.defaultMethod();
+//		Default.super.defaultMethod();
 	}
 
 	

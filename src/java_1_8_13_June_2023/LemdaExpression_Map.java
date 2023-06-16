@@ -29,9 +29,9 @@ public class LemdaExpression_Map {
 		List<String> liString = new ArrayList<>(Arrays.asList("Hello", "Abashay", "Nandini", "Sneha", "Abhaisk"));
 
 		
-//		liString = liString.stream().map(s -> "Mr.".concat(s)).toList();
+	    liString = liString.stream().map(s -> "Mr.".concat(s)).toList();
 		
-		liString = liString.stream().map(s -> s.toLowerCase()).toList();
+		//liString = liString.stream().map(s -> s.toLowerCase()).toList();
 		
 		System.out.println(liString);
 		
