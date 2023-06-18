@@ -8,6 +8,13 @@ public class OptinalClassTest {
 	public static void main(String[] args) {
 
 		String[] str = new String[10];
+		str[0] ="Abhay0";
+		str[1] ="Abhay1";
+		str[2] ="Abhay2";
+		str[3] ="Abhay3";
+		str[4] ="Abhay4";
+		str[5] ="Abhay5";
+		str[6] ="Abhay6";
 		Optional<String> checkNull = Optional.ofNullable(str[5]);
 		
 		if (checkNull.isPresent()) { // check for value is present or not

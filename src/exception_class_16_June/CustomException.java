@@ -2,9 +2,7 @@ package exception_class_16_June;
 
 public class CustomException extends RuntimeException {
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	
 	
@@ -13,9 +11,9 @@ public class CustomException extends RuntimeException {
 	}
 	
 	/*
-	 * @Override public String getMessage() { // TODO Auto-generated method stub
-	 * return "Nandini";
-	 * 
+	 * @Override public String getMessage() { 
+	 * // TODO Auto-generated method stub
+	 * return "Nandini"; 
 	 * }
 	 */
 	@Override
@@ -23,5 +21,4 @@ public class CustomException extends RuntimeException {
 		// TODO Auto-generated method stub
 		System.out.println("Hello");
 	}
-	
 }

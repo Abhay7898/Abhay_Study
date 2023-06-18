@@ -10,7 +10,7 @@ public class ExceptionTest {
 		} catch (CustomException e) {
 			
 			e.printStackTrace();
-//			e.getCause();
+			//e.getCause();
 			System.out.println(e.getMessage());
 		}
 		
@@ -21,7 +21,7 @@ public class ExceptionTest {
 			int a = 10 / 0;
 
 		} catch (ArithmeticException e) {
-			throw new CustomException();
+			throw new CustomException(e);
 		}
 	}
 
