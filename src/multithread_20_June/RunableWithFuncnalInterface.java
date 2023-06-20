@@ -9,6 +9,7 @@ public class RunableWithFuncnalInterface {
 				System.out.println(i);
 			}
 		}
+		System.out.println("Bye");
 	}
 	public static void main(String[] args) {
 		Runnable r = () -> {
