@@ -13,6 +13,8 @@ public class Student_Connection {
 			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student_data?characterEncoding=utf8", "root", "root");
 		}catch(Exception e) {
 			System.out.println(e);
+		}finally {
+			
 		}
 		return con;
 	}

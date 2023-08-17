@@ -13,10 +13,8 @@ public class JavaWithPY {
 		if (word.equals("Java")) {
 			word = null;
 		}
-	}
-	
-	System.out.println(str);
-			
+	}	
+	System.out.println(str);		
 	}
 
 }

@@ -1,6 +1,7 @@
 package multithread_20_June;
 
 public class RunableWithFuncnalInterface {
+	
 	static void print() {
 		System.out.println("Hello");
 		
@@ -11,6 +12,7 @@ public class RunableWithFuncnalInterface {
 		}
 		System.out.println("Bye");
 	}
+	
 	public static void main(String[] args) {
 		Runnable r = () -> {
 			print();

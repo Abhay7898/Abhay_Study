@@ -10,7 +10,7 @@ public class Read_data_from_files {
 		FileReader fr =null;
 		BufferedReader bf = null;
 		try {
-			fr=new FileReader("D:\\Java Files//Hello.txt");
+			fr=new FileReader("D:\\StringFile.txt");
 			bf= new BufferedReader(fr);
 			String st =" ";
 			while(st!=null) {

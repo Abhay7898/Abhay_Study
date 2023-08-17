@@ -1,4 +1,4 @@
-package databaseconnection;
+ package databaseconnection;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -17,7 +17,7 @@ public class Read_Data_FROM_DB {
 			e.printStackTrace();
 		}
 		PreparedStatement pr = con.prepareStatement("Select * from student");
-		ResultSet rs = pr.executeQuery();
+		ResultSet rs  = pr.executeQuery();
 		while (rs.next()) {
 			System.out.println(rs.getInt(1) + "," + rs.getString(2) + "," + rs.getInt(3) + "," + rs.getString(3));
 		}
