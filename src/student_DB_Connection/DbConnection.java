@@ -1,8 +1,7 @@
 package student_DB_Connection;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
-
-import com.mysql.jdbc.Connection;
 
 public class DbConnection {
 

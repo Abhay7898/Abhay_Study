@@ -10,6 +10,11 @@ public class OpretionStudent {
 		//readStudentByID();
 		//deletStudentbyId();
 		//creatStudent();
+		//updateStudent();
+	
+	}
+
+	private static void updateStudent() {
 		Student_InterFace_Implimention st = new Student_InterFace_Implimention();
 		Student stu = new Student();
 		stu.setsId(7);
@@ -23,7 +28,6 @@ public class OpretionStudent {
 		}else {
 			System.out.println("Data not Update");
 		}
-	
 	}
 
 	private static void creatStudent() {

@@ -1,6 +1,12 @@
 package db_Connection_For_Student;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 123;
 	private int sId;
 	private String sName;
 	private String sFather;

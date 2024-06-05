@@ -3,8 +3,6 @@ package newJDBC_Connection;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-import com.mysql.jdbc.PreparedStatement;
-
 public class Student_Connection {
 	public static Connection getConnection() {
 		Connection con = null;

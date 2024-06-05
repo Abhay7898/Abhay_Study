@@ -1,7 +1,11 @@
 package colection;
 import java.util.ArrayList;
+import java.util.HashSet;
 public class Arraylist {
 	public static void main(String[] args) {
+		
+		HashSet<Integer> e = new HashSet<>();
+		e.add(null)
 		
 		ArrayList <String> list =  new ArrayList<>();
 		String str = "The Collection in Java is a framework c provides an architecture to store and manipulate the group of objects.";
