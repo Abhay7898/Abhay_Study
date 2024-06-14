@@ -3,7 +3,7 @@ package comprableInterface;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class EmlpyeeEmprableTest {
+public class EmlpyeeComprableTest {
 
 	public static void main(String[] args) {
 
